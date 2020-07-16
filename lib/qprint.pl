@@ -32,6 +32,9 @@
 
 package quoted_printable;
 
+use strict;
+use warnings;
+
 sub qprdecode {
     local($_) = shift;
 
